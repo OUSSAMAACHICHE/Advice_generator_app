@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [url]([https://your-solution-url.com](https://github.com/OUSSAMAACHICHE/Advice_generator_app))
+- Solution URL: (https://github.com/OUSSAMAACHICHE/Advice_generator_app))
 - Live Site URL: [Live site]([https://your-live-site-url.com](https://oussamaachiche.github.io/Advice_generator_app/)https://oussamaachiche.github.io/Advice_generator_app/)
 
 
