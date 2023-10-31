@@ -1,0 +1,117 @@
+/* RESET DEFAULT  */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: var(--Dark-Blue);
+	font-family: 'Manrope', sans-serif;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+:root {
+	/* ### Primary */
+
+--Light_Cyan: hsl(193, 38%, 86%);
+--Neon_Green: hsl(150, 100%, 66%);
+
+/* ### Neutral */
+
+--Grayish-Blue: hsl(217, 19%, 38%);
+--Dark-Grayish-Blue: hsl(217, 19%, 24%);
+--Dark-Blue: hsl(218, 23%, 16%);
+
+--quetFont: 28px;
+}
+.content-quets {
+	background-color: var(--Dark-Grayish-Blue);
+	border-radius: 20px;
+	padding: 40px;
+	text-align: center;
+	width: 500px;
+	position: relative;
+}
+.content-quets .advice_id {
+	color: var(--Neon_Green);
+	letter-spacing: 2px;
+	font-size: 0.9rem;
+}
+.content-quets .advice {
+	color: var(--Light_Cyan);
+	font-size: var(--quetFont);
+	margin: 20px 0 0;
+	min-height: 150px;
+
+}
+.content-quets .pusse {
+	margin: auto;
+	margin: 20px 0 20px;
+}
+.content-quets .content_dice {
+	border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    width: 45px;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+	cursor: pointer;
+	transition: all .3s;
+}
+.content-quets .content_dice:hover {
+	box-shadow: 0px 0px 27px 6px var(--Neon_Green);
+}
+.content-quets .dice {
+	background-color: var(--Neon_Green);
+	padding: 14px;
+	left: 50%;
+}
+.content-quets .pusse_mobile {
+	display: none;
+}
+/* Start Media Query  */
+@media (max-width: 767px) {
+	.content-quets {
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.content-quets .pusse {
+		display: none;
+	}
+	.content-quets .pusse_mobile {
+		display: block;
+		margin: 20px 0;
+	}
+	.content-quets .advice {
+		color: var(--Light_Cyan);
+		font-size: calc(var(--quetFont) - 4px);
+		margin: 20px 0 0;
+		min-height: 150px;
+	
+	}
+	
+}
+
+
+
+
+
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	position: fixed;
+	bottom: 10px;
+}
+
+.attribution a {
+	color: hsl(229, 17%, 88%);
+}
